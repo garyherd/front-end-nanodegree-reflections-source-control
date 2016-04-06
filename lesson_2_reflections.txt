@@ -38,3 +38,11 @@ help by enabling you to create a modified code base, with its own set of
 commits. You can them merge or discard the changes later.
 
 ***************
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help you visualize the branch structure by showing changes and branches
+in time, so it's easy to figure out what existing when.
+
+***************
+
