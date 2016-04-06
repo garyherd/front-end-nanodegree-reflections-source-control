@@ -1,26 +1,40 @@
-What happens when you initialize a repository? Why do you need it? At
-initialize, a new, hidden directory called .git is created. It's needed to track
-commits 
-*******************
+What happens when you initialize a repository? Why do you need it?
+
+At initialize, a new, hidden directory called .git is created. It's needed to
+track commits.
+
+****************
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-*******************
+
 
 The working directory shows what files might be under revision. The staging area
 contains the files that are tracked from the working directory, and have current
 changes. The repository holds all committed changes to the files in the working
 directory. Having these three areas creates a pipelined workflow, with the
 staging areas offering the ability to be edited before a commit.
-*******************
+
+****************
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-*******************
+
 
 You can use git add to control what goes into staging area. For instance, if you
 can changes to three files, but two of the changes should be in one commit, you
 git add the two files, and then git commit will group those two files together
 in a single commit. You can then go back and do another git add, git commit for
 the third file.
-*******************
+
+***************
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Branches would be helpful for making experimental changes to the code that
+you're not sure you want to make part of the "production" code base. Branches
+help by enabling you to create a modified code base, with its own set of
+commits. You can them merge or discard the changes later.
+
+***************
