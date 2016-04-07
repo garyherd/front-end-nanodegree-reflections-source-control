@@ -41,8 +41,19 @@ commits. You can them merge or discard the changes later.
 
 How do the diagrams help you visualize the branch structure?
 
-Diagrams help you visualize the branch structure by showing changes and branches
-in time, so it's easy to figure out what existing when.
+Diagrams help you visualize the branch structure by showing changes and where in
+time the code may have branched off the main, so it's easy to figure out what
+existing when.
+
+***************
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+
+The result of merging the two branches is to turn to sets of parallel commits
+into one linear one. It is represented this way for clarity. It's a little
+easier to see where in two sets first diverged and then came together.
 
 ***************
 
