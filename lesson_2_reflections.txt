@@ -57,3 +57,10 @@ easier to see where in two sets first diverged and then came together.
 
 ***************
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+Pro's : save time simple resolutions, but doesn't try to guess how to resolve
+conflect. Con's: you may not see new code that isn't part of the merge conflict.
+
+***************
