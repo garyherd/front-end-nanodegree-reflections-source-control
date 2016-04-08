@@ -19,3 +19,11 @@ The clone and fork are for making copies of whole repositories from one location
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 The benefit of having a copy of the last known state if the remote stored locally is this enables a merge between the copy and local HEAD. This makes it easier to resolve conflicts where updates are made to the local and remote separately. It turns it back into merging local branches.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without Git or GitHub, you could use email or Slack to collaborate and send changes. For solo projects, you could just keep renaming code files perhaps with the date appended, so you could track changes, and rollback if needed.
+
+For small projects with few or no collaborators, a simple file system might be easier. 
+FOr larger project with more collaborators, it would be hard to merge all the changes together on a frequent basis.
