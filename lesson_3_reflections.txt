@@ -15,3 +15,7 @@ A fork is a clone, but on GitHub, from one repo to your repo
 A branch is done only to one repository.
 
 The clone and fork are for making copies of whole repositories from one location to another. A branch is a local copy of a set of commits that you may want to merge with later. You would use a branch to experiment with a new feature or work on fixing a bug in your own repository. If someone wanted to fix a bug in a repository they don't own, they could do a fork.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The benefit of having a copy of the last known state if the remote stored locally is this enables a merge between the copy and local HEAD. This makes it easier to resolve conflicts where updates are made to the local and remote separately. It turns it back into merging local branches.
