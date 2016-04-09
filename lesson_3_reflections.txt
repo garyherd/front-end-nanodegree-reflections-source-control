@@ -27,3 +27,8 @@ Without Git or GitHub, you could use email or Slack to collaborate and send chan
 
 For small projects with few or no collaborators, a simple file system might be easier. 
 FOr larger project with more collaborators, it would be hard to merge all the changes together on a frequent basis.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You would want to make changes in a separate branch when you are collaborating with others, and you would like control over what changes get into the master. It's a way of preventing changes getting into the master branch without the repository owner knowing.
